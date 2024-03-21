@@ -1,8 +1,37 @@
-
-h1 {
-    color: red;
-    background-color: yellow;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+.center {
+    margin: auto;
+    width: 40%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+
+  .card {
+    
+    background-color: green;
+    font-size: 60px;
+    border: 2x solid red;
+    border-radius: 20px;
+  }
+
+  .center-1{
+    margin: auto;
+    width: 29%;
+    padding: 20px;
+
+  }
+  .center-2{
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+  }
+
+
 
 .text-blue {
     color: rgb(10, 10, 208);
@@ -13,12 +42,19 @@ h1 {
     color: rgb(108, 7, 108);
 }
 
-.fs_20 {
-    font-size: 20px;
+.fs_40 {
+    font-size: 40px;
 }
 
-.fs_30 {
-    font-size: 30px;
+.sfondo{
+    background-color: rgba(213, 4, 4, 0.953);
+}
+
+.fs_50 {
+    font-size: 50px;
+}
+.fs_70{
+    font-size: 70px;
 }
 
 
@@ -32,39 +68,8 @@ h3{
 
 .text-brown{
     color: brown;
-=======
-h1 {
-    color: red;
-    background-color: yellow;
 }
 
-.text-blue {
-    color: rgb(10, 10, 208);
-
-}
-
-.text-purple {
-    color: rgb(108, 7, 108);
-}
-
-.fs_20 {
-    font-size: 20px;
-}
-
-.fs_30 {
-    font-size: 30px;
-}
-
-
-h2 {
-    color:rgb(21, 182, 21)
-}
-
-h3{
-    color: grey;
-}
-
-.text-brown{
-    color: brown;
->>>>>>> dfd85951df2e252348bc47ae21b3f144fabca78a
+.text-light-blue{
+    color: rgba(13, 13, 207, 0.636);
 }
