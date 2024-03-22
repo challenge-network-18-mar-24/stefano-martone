@@ -7,16 +7,14 @@
 .center {
     margin: auto;
     width: 40%;
-    border: 3px solid green;
-    padding: 10px;
+  padding: 10px;
   }
 
   .card {
-    
-    background-color: green;
+    color: rgba(255, 0, 0, 0.814);
     font-size: 60px;
-    border: 2x solid red;
-    border-radius: 20px;
+    
+
   }
 
   .center-1{
@@ -31,13 +29,31 @@
     padding: 20px;
   }
 
+  .div fixed{
+    position:fixed
+    top: 80px;
+    right: 80px;
+  }
+
+  .container{
+    align-content:center;
+  }
   
+  .p_15{
+    padding:15px;
+  }
 
 
 .text-blue {
     color: rgb(10, 10, 208);
 
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 
 .text-purple {
     color: rgb(108, 7, 108);
@@ -48,7 +64,7 @@
 }
 
 .sfondo{
-    background-color: rgba(213, 4, 4, 0.953);
+    im: rgba(213, 4, 4, 0.953);
 }
 
 .fs_50 {
@@ -59,13 +75,11 @@
 }
 
 
-h2 {
+h3 {
     color:rgb(21, 182, 21)
 }
 
-h3{
-    color: grey;
-}
+
 
 .text-brown{
     color: brown;
@@ -73,4 +87,16 @@ h3{
 
 .text-light-blue{
     color: rgba(13, 13, 207, 0.636);
+}
+
+.flex{
+  display: flex;
+}
+
+.container{
+  justify-content: space-evenly;
+}
+
+.gap_10{
+  gap: 10px;
 }
